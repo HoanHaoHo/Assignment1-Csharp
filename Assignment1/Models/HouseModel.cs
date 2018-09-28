@@ -7,6 +7,7 @@ namespace Assignment1.Models
 {
     public class HouseModel
     {
+        public int ID { get; set; }
         public int Value { get; set; }
         public int LotSize {get;set;}
         public string Address { get; set; }
